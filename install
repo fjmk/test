@@ -12,7 +12,7 @@ rm -rf .docksal/.git .docksal/install
 
 echo ".docksal template is installed."
 echo
-echo "Probably you want to customize .docksal/docksal.env
+echo "Probably you want to customize .docksal/docksal.env"
 echo "... or add .docksal/docksal-local.env"
 echo
 echo "Change .docksal/commands/init and .docksal/example.settings.local.php if needed."

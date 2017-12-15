@@ -7,7 +7,7 @@ else
   BRANCH=$1
 fi
 
-echo "arg= $1"
+echo "arg= $BRANCH"
 exit
 
 git clone --branch $BRANCH https://github.com/fjmk/docksal-template .docksal

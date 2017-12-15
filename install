@@ -7,7 +7,7 @@ else
   BRANCH=$1
 fi
 
-git clone --branch $BRANCH https://github.com/fjmk/docksal-template .docksal
+git clone --branch $BRANCH https://github.com/fjmk/docksal-template .docksal 2>&1 >/dev/null
 rm -rf .docksal/.git .docksal/install
 
 echo ".docksal template is installed."

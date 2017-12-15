@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# use master as default branch?
+if [[ "$1" == "" ]]; then
+  BRANCH=master
+else
+  BRANCH=$1
+fi
+
+echo "arg= $1"
+exit
+
+git clone --branch $BRANCH https://github.com/fjmk/docksal-template .docksal
+rm -rf .docksal/.git .docksal/install
+
+echo ".docksal template is installed."
+echo
+echo "Probably you want to customize .docksal/docksal.env
+echo "... or add .docksal/docksal-local.env"
+echo
+echo "Change .docksal/commands/init and .docksal/example.settings.local.php if needed."

@@ -33,5 +33,5 @@ echo
 echo-green-bg "Probably you want to customize .docksal/docksal.env"
 echo-green-bg "... or add .docksal/docksal-local.env"
 echo
-echo-yellow "Change .docksal/commands/init and .docksal/example.settings.local.php if needed."
+echo-green-bg "Change .docksal/commands/init and .docksal/example.settings.local.php if needed."
 echo

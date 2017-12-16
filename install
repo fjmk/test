@@ -15,6 +15,7 @@ echo-yellow () { echo -e "${yellow}$1${NC}"; }
 # Is .docksal installed already?
 if [[ -e .docksal ]]; then
   echo-red "There is a .docksal directory already; not downloading"
+fi
 
 # use master as default branch?
 if [[ "$1" == "" ]]; then
